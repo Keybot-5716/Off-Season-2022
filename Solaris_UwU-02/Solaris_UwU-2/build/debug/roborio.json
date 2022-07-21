@@ -1,0 +1,56 @@
+[
+  {
+    "type": "native",
+    "name": "frcCpp",
+    "port": 8349,
+    "target": "10.57.16.2",
+    "launchfile": "C:\\Users\\FIRST\\Desktop\\Off-Season_2022\\Solaris_UwU-02\\Solaris_UwU-2\\build\\exe\\frcUserProgram\\release\\frcUserProgram",
+    "gdb": "C:\\Users\\Public\\wpilib\\2022\\roborio\\bin\\arm-frc2022-linux-gnueabi-gdb.exe",
+    "sysroot": "C:\\Users\\Public\\wpilib\\2022\\roborio",
+    "srcpaths": [
+      "C:\\Users\\FIRST\\Desktop\\Off-Season_2022\\Solaris_UwU-02\\Solaris_UwU-2\\src\\main\\cpp",
+      "C:\\Users\\FIRST\\Desktop\\Off-Season_2022\\Solaris_UwU-02\\Solaris_UwU-2\\src\\main\\include"
+    ],
+    "headerpaths": [
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\cf6b057ce69e72f784efd53063d93c88\\transformed\\wpilibNewCommands-cpp-2022.4.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\21a16a8365e997d8861fdb962d87d755\\transformed\\wpiapi-cpp-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\e33fd2784776fb0d96cfbdf769a78f23\\transformed\\api-cpp-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\f827191747cbd4b903e23c90d5f30869\\transformed\\cci-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\0ab142009bd2177600a4c1582f29ca6a\\transformed\\wpiapi-cpp-sim-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\940b14b180976eee2f4ab97e0484af30\\transformed\\api-cpp-sim-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\bad996cafb123f5b86b8c823b137a89d\\transformed\\cci-sim-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\4da56bffd1f22ef5d54c4381ffecdb6c\\transformed\\simTalonSRX-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\8178d3bdcf9e229504a39ef9fd5a4277\\transformed\\simTalonFX-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\a1253b75fe825a9066b97580d03df368\\transformed\\simVictorSPX-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\35bf824c8ba41c518fbde0a9a17b7f84\\transformed\\simPigeonIMU-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\307395a95b9a549916ffba7f08d28dbe\\transformed\\simCANCoder-5.21.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\83a53c18c19df5f914abde33ca4309b0\\transformed\\wpilibc-cpp-2022.4.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\0633eddf9cc29c97c240246ad007ab86\\transformed\\ntcore-cpp-2022.4.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\013c4d97f722563b8a8f300b5d6fcf5c\\transformed\\hal-cpp-2022.4.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\07ed64aa1074398a5cd82f3b682532eb\\transformed\\wpimath-cpp-2022.4.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\ccada9075d3b8dcc0d173eb790a55986\\transformed\\wpiutil-cpp-2022.4.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\d20970ca6067656e8d18591c65c1c758\\transformed\\netcomm-2022.4.0-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\beb5aec5694b7daa19e896d7e4d40300\\transformed\\chipobject-2022.4.0-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\011dbd21fb3a73c85c9085af8a9b8327\\transformed\\visa-2022.4.0-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\4b2c15168f64d35a1b579495a5014e1e\\transformed\\cameraserver-cpp-2022.4.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\7b53244be03bb0b4044131ce076c8f9c\\transformed\\cscore-cpp-2022.4.1-headers",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\30bea9114bf75f91d18347a8be921f2a\\transformed\\opencv-cpp-4.5.2-1-headers",
+      "C:\\Users\\FIRST\\Desktop\\Off-Season_2022\\Solaris_UwU-02\\Solaris_UwU-2\\src\\main\\include"
+    ],
+    "libpaths": [
+      "C:\\Users\\FIRST\\Desktop\\Off-Season_2022\\Solaris_UwU-02\\Solaris_UwU-2\\build\\install\\frcUserProgram\\release\\lib",
+      "C:\\Users\\FIRST\\Desktop\\Off-Season_2022\\Solaris_UwU-02\\Solaris_UwU-2\\build\\install\\frcUserProgram\\release"
+    ],
+    "libsrcpaths": [
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\b74bc373983b90c10540859f240e0191\\transformed\\wpilibNewCommands-cpp-2022.4.1-sources",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\bace3f014002850edd343c7a290124ca\\transformed\\wpilibc-cpp-2022.4.1-sources",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\89a5ddbec0f491219a12bf1b6c42b2d0\\transformed\\ntcore-cpp-2022.4.1-sources",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\268ec3de7757d66cfa75b3a52822ab61\\transformed\\hal-cpp-2022.4.1-sources",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\e6dd4be99839771c98f2214dde1cbd29\\transformed\\wpimath-cpp-2022.4.1-sources",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\1774e1db753f8e35f17f74321faba768\\transformed\\wpiutil-cpp-2022.4.1-sources",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\ed0bf7a241866665121cacd5ea4e7db0\\transformed\\cameraserver-cpp-2022.4.1-sources",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\05dcb83f4e2904a8b86589a293a09b8f\\transformed\\cscore-cpp-2022.4.1-sources",
+      "C:\\Users\\FIRST\\.gradle\\caches\\transforms-3\\79aac71c8d50718f8b9bc13bcdcf9b4f\\transformed\\opencv-cpp-4.5.2-1-sources"
+    ]
+  }
+]
