@@ -1,6 +1,7 @@
 # Keybot 5716
 
-[![C++ Documentation](https://img.shields.io/badge/documentation-c%2B%2B-blue)](https://github.wpilib.org/allwpilib/docs/development/cpp/)
+[![Documentacion C++](https://img.shields.io/badge/documentation-c%2B%2B-blue)](https://github.wpilib.org/allwpilib/docs/development/cpp/)
+[![Sololearn](https://img.shields.io/badge/sololearn-c%2B%2B-red)](https://www.sololearn.com/learning/1051)
 
 Bienvenidx a la pagina de desarrollo de Keybot 5716! Durante el periodo de Off-Season 2022, aqui se encuentran los codigos desarrollados para el robot conocido como "Solaris" en nombre de la presidenta de la gestión 2021-2022. Espero encuentres algo util en este repositorio
 
