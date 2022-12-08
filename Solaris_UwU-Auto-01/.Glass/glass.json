@@ -1,0 +1,58 @@
+{
+  "NetworkTables": {
+    "CameraPublisher": {
+      "limelight": {
+        "open": true
+      },
+      "open": true
+    },
+    "FMSInfo": {
+      "open": true
+    },
+    "LiveWindow": {
+      ".status": {
+        "open": true
+      },
+      "Ungrouped": {
+        "DifferentialDrive[1]": {
+          "open": true
+        },
+        "navX-Sensor[4]": {
+          "open": true
+        },
+        "open": true
+      },
+      "open": true
+    },
+    "SmartDashboard": {
+      "Auto Modes": {
+        "open": true
+      },
+      "DB": {
+        "open": true
+      },
+      "open": true
+    },
+    "Usage": {
+      "Client": {
+        "Dashboard": {
+          "open": true
+        },
+        "open": true
+      },
+      "open": true
+    },
+    "limelight": {
+      "open": true
+    },
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/navX-Sensor[4]": "Gyro",
+      "/SmartDashboard/Auto Modes": "String Chooser"
+    }
+  },
+  "NetworkTables Settings": {
+    "mode": "Client"
+  }
+}

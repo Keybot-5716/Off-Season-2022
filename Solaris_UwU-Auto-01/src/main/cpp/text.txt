@@ -1,0 +1,31 @@
+    //Gira 90° a la izquierda
+    if (gyro.GetAngle() < 100 && timerAuto.Get() >= 4_s && hasSpin == false){
+      m_drive.ArcadeDrive(0.5, 0.0,false);
+    }else if (gyro.GetAngle() >= 100 && hasSpin == false){
+        hasSpin = true; //Activa el primer spin
+        gyro.Reset();
+        timerAuto.Reset();
+    }
+
+    //Avanza de nuevo
+    if (timerAuto.Get() < 1.5_s && hasSpin == true && secondSpin == false && firstAdvance == true && secondAdvance == false) {
+      m_drive.ArcadeDrive(0.0, 0.4, false);
+    } else if (timerAuto.Get() > 1.5_s && hasSpin == true && secondSpin == false && firstAdvance == true && secondAdvance == false){
+      secondAdvance = true;
+      gyro.Reset();
+    }
+
+    //Gira otra vez
+    if (gyro.GetAngle() > -90 && timerAuto.Get() >= 4_s && secondAdvance == true && hasSpin == true && secondSpin == false){
+      m_drive.ArcadeDrive(-0.5, 0.0,false);
+    }else if (gyro.GetAngle() <= -90 && secondAdvance == true && secondSpin == false){
+        secondSpin = true; //Activa el primer spin
+        timerAuto.Reset();
+    }
+    
+    //Avanza por ultima vez
+    if (timerAuto.Get() < 2_s && secondSpin == true && hasSpin == true && secondAdvance == true) {
+      m_drive.ArcadeDrive(0.0, 0.3, false);
+    } else if (timerAuto.Get() > 2_s && secondSpin == true && hasSpin == true && secondAdvance == true){
+      m_drive.ArcadeDrive(0.0, 0.0, false);
+    }
